@@ -9,16 +9,16 @@ package clases_propias;
  * @author Rulo
  */
 public class HerenciaGenericos {
-    /*Empleado Administrativa = new Empleado("Elena", 45, 1500);
+    /*Empleado administrativa = new Empleado("Elena", 45, 1500);
     
-    Jefe DirectoraComercial = new Jefe("Ana", 27, 3500);
+    Jefe directoraComercial = new Jefe("Ana", 27, 3500);
     
     Empleado nuevoEmpleado = DirectoraComercial;*/
     
-    Pareja<Empleado> Administrativa = new Pareja<Empleado>();
-    Pareja<Jefe> DirectoraComercia = new Pareja<Jefe>();
+    Pareja<Empleado> administrativa = new Pareja<Empleado>();
+    Pareja<Jefe> directoraComercia = new Pareja<Jefe>();
     
     //¿POR QUE NO?
-    //Pareja<Empleado> nuevoEmpleado = DirectoraComercial;
+    //Pareja<Empleado> nuevoEmpleado = directoraComercial;
     /*Pareja*/
 }
